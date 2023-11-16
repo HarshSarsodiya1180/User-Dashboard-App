@@ -1,6 +1,5 @@
 // User Detail Page
 import React, { useState, useEffect } from 'react';
-import { Helmet } from 'react-helmet';
 import usersdata from '../data/usersdata.json';
 import { BiSearch } from 'react-icons/bi'; // Import a search icon from a library or use your own
 
@@ -61,9 +60,6 @@ const UserDetailsTab = () => {
 
   return (
     <div className="flex flex-col justify-center items-center">
-      <Helmet>
-        <meta name="description" content="Explore user details in a searchable table format. View information such as usernames, emails, phones, IDs, and creation dates. Generate reports for selected users with a click." />
-      </Helmet>
       <h2 className="text-4xl mt-2 mb-6 text-pink-600 font-extrabold tracking-wide leading-tight">
   User Details
 </h2>
