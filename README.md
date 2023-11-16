@@ -5,9 +5,9 @@ The User Details tab will display user information fetched from a database (JSON
 The Account Creation tab will consist of a form for username and password input.
 
 Features
-1.Responsive
-2.User Friendly Design
-3.Functional and Clean Design
+1. Responsive
+2. User Friendly Design
+3. Functional and Clean Design
 
 Tech Stack Used:
 1. React JS
