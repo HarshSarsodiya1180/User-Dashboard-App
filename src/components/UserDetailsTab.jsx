@@ -63,7 +63,6 @@ const UserDetailsTab = () => {
       <h2 className="text-4xl mt-2 mb-6 text-pink-600 font-extrabold tracking-wide leading-tight">
   User Details
 </h2>
-
       <div className="flex gap-4 items-center">
         <div className="relative">
           <input
@@ -88,9 +87,9 @@ const UserDetailsTab = () => {
           <option value={30}>30</option>
         </select>
       </div>
-
+      <h3 class="mt-4 text-xl font-semibold border-b-2 border-blue-500 pb-2">Select a User to Generate Report</h3>
       {/* table  */}
-      <div className="w-full mt-8 overflow-x-auto">
+      <div className="w-full mt-4 overflow-x-auto">
   <table className="w-full bg-white border border-gray-200 divide-y divide-gray-200">
     <thead className="bg-gray-100">
       <tr>
