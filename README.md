@@ -20,6 +20,4 @@ Installation
 4. After all the installation is completed run "npm run dev"
 5. Go to http://localhost:5173/ in browser to see the result
    
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+NOTE: THIS PROJECT USES VITE TO CREATE REACT APP , TO CREATE REACT APP USING VITE TYPE "npm create vite@latest"
