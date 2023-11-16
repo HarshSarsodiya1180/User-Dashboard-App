@@ -13,7 +13,7 @@ LightHouse Score
 1. Performance - 100
 2. Accessiblity - 100
 3. Best Practices - 100
-4. SEO -
+4. SEO - 91
 
 
 Tech Stack Used:
