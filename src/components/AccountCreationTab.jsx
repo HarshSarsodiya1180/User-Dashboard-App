@@ -1,5 +1,6 @@
 // Account Creation Page
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet';
 
 const AccountCreationTab = () => {
   const [username, setUsername] = useState('');
@@ -25,7 +26,11 @@ const AccountCreationTab = () => {
   };
 
   return (
+    
     <div className="flex flex-col justify-center items-center">
+      <Helmet>
+        <meta name="description" content="Create new user accounts with ease. Use the form to input usernames and passwords securely. Dummy request handling ensures a smooth account creation process for your application." />
+      </Helmet>
   <h2 className="text-4xl mt-2 mb-6 text-pink-600 font-extrabold tracking-wide leading-tight">Account Creation</h2>
   <form onSubmit={handleSubmit} className="max-w-md mx-auto mt-8 p-6 bg-white shadow-md rounded-lg">
     <label htmlFor="username" className="block text-gray-700 text-sm font-semibold mb-2">
