@@ -14,7 +14,7 @@ LightHouse Score
 2. Accessiblity - 100
 3. Best Practices - 100
 4. SEO -
-5. 
+
 
 Tech Stack Used:
 1. React JS
