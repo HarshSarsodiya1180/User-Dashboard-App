@@ -12,6 +12,10 @@ Features
 Tech Stack Used:
 1. React JS
 2. Tailwind CSS
+3. Git
+
+Hosting
+1.Netlify (https://user-mngmt-app.netlify.app/)
 
 Installation
 1. Download Zip Code from the Github repositry
