@@ -9,6 +9,13 @@ Features
 2. User Friendly Design
 3. Functional and Clean Design
 
+LightHouse Score
+1. Performance - 100
+2. Accessiblity - 100
+3. Best Practices - 100
+4. SEO -
+5. 
+
 Tech Stack Used:
 1. React JS
 2. Tailwind CSS
