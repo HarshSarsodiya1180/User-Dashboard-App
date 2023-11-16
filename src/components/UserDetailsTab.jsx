@@ -1,8 +1,10 @@
+// User Detail Page
 import React, { useState, useEffect } from 'react';
 import usersdata from '../data/usersdata.json';
 import { BiSearch } from 'react-icons/bi'; // Import a search icon from a library or use your own
 
 const UserDetailsTab = () => {
+  // States
   const [users, setUsers] = useState(usersdata);
   const [selectedUser, setSelectedUser] = useState(null);
   const [showModal, setShowModal] = useState(false);
@@ -10,26 +12,31 @@ const UserDetailsTab = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [usersPerPage, setUsersPerPage] = useState(10);
 
+  // function to handle click on table rows 
   const handleRowClick = (user) => {
     setSelectedUser(user);
     setShowModal(true);
   }; 
 
+  // function to close modal
   const handleCloseModal = () => {
     setShowModal(false);
   };
 
+  // function to generate report in modal
   const handleGenerateReport = () => {
     console.log('Generating report for user:', selectedUser);
     alert('Report has been generated');
   };
 
+  // function to handle search in table rows
   const handleSearch = (e) => {
     const term = e.target.value.toLowerCase();
     setSearchTerm(term);
     setCurrentPage(1);
   };
 
+  // function for pagination
   const handlePageChange = (page) => {
     setCurrentPage(page);
   };
@@ -39,6 +46,7 @@ const UserDetailsTab = () => {
     setCurrentPage(1);
   };
 
+  // function to filter user based on username, email and phone number
   const filteredUsers = users.filter(
     (user) =>
       user.username.toLowerCase().includes(searchTerm) ||
@@ -80,6 +88,8 @@ const UserDetailsTab = () => {
           <option value={30}>30</option>
         </select>
       </div>
+
+      {/* table  */}
       <div className="w-full mt-8 overflow-x-auto">
   <table className="w-full bg-white border border-gray-200 divide-y divide-gray-200">
     <thead className="bg-gray-100">
@@ -130,6 +140,7 @@ const UserDetailsTab = () => {
         </button>
       </div>
 
+      {/* modal on click */}
       {showModal && (
         <div className="fixed inset-0 overflow-y-auto flex items-center justify-center">
           <div className="modal-overlay fixed inset-0 bg-black opacity-80 "></div>

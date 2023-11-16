@@ -1,9 +1,11 @@
+// Account Creation Page
 import React, { useState } from 'react';
 
 const AccountCreationTab = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  // function to handle form submit
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -13,8 +15,8 @@ const AccountCreationTab = () => {
       return;
     }
 
-    // Add your logic to handle the form submission (dummy request handling)
-    // For demonstration purposes, let's just show an alert
+    //  (dummy request handling)
+    // For demonstration purposes, just show an alert
     alert(`Account created successfully!\nUsername: ${username}\nPassword: ${password}`);
 
     // Reset fields after successful submission

@@ -4,6 +4,7 @@ function App() {
 
   return (
     <>
+    {/* Redirecting to Dashboard App */}
     <Dashboard/>
     </>
   )
