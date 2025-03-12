@@ -22,7 +22,7 @@ Tech Stack Used:
 3. Git
 
 Hosting
-1. Netlify (https://user-mngmt-app.netlify.app/)
+1. 
 
 Installation
 1. Download Zip Code from the Github repositry
