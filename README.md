@@ -22,7 +22,7 @@ Tech Stack Used:
 3. Git
 
 Hosting
-1. 
+1. Vercel - (https://user-dashboard-app-harsh-sarsodiyas-projects.vercel.app/)
 
 Installation
 1. Download Zip Code from the Github repositry
